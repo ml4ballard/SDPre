@@ -1,12 +1,35 @@
 
- public class Objective2Lab2 {
-   public static void main(String[] args) {
-     String name = "Maureen Ballard";            //declaring the variable named name
-     int age = 155;
-     String state = "Colorado";
- 
-     System.out.println(nme: " name "Age: " age "State: " state);
+  import java.util.Scanner;
 
-   }
+ public class main(String[] args) {
+     public static void main(String{} args) {
+         //Create a scanner object to read input from the terminal
 
- } 
+         Scanner kbinout = new Scanner(System.in);
+
+         int num1 = 0, num2 = 0, num3 = 0;
+         double dub1 = 0.0, dub2 = 0.0, dub3 = 0.0;
+
+         //prompt the user to get inpout for all of the int variables
+
+         System.out.println("Please give me the first integer");
+         int num1 = scanner.nextInt();
+
+         System.out.println("Please give me the second integer");
+         int num2 = scanner.nextInt();
+
+         System.out.println("Please give me the third integer");
+         int num3 = scanner.nextInt();
+
+         System.out.println("Please give me the first double");
+         int dub1 = scanner.nextInt();
+
+         System.out.println("Please give me the second double
+         int dub2 = scanner.nextInt();
+
+         System.out.println("Please give me the third double");
+         int dub3 = scanner.nextInt();
+
+  System.out.println("The product of " + num1 + " and " + num2 + " and " + num3 " is " num1+num2+num3".");
+
+ }
